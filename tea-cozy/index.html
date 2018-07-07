@@ -6,73 +6,81 @@
 </head>
 <body>
 	<header>
-		<img src="resources/images/img-tea-cozy-logo.png">
-		<nav>
-			<a href="#">Mission</a>
-			<a href="#">Featured Tea</a>
-			<a href="#">Locations</a>
+		<div id="logo">
+			<img src="resources/images/img-tea-cozy-logo.png">
+		</div>
+		<nav id="havigation">
+			<span><a href="#">Mission</a></span>
+			<span><a href="#">Featured Tea</a></span>
+			<span><a href="#">Locations</a></span>
 		</nav>
 	</header>
-	<div id="mission">
-		<h2>Our Mission</h2>
-		<h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-	</div>
-	<div id="steeping">
-		<h2>Tea of the Month</h2>
-		<h4>What's Steeping at The Tea Cozy?</h4>
-		<div id="steeping-gallery">
-			<div class="image-1 image">
-				<img src="resources/images/img-berryblitz.jpg" />
-				<p>Fall Berry Blitz Tea</p>
-			</div>
-			<div class="image-2 iamge">
-				<img src="resources/images/img-spiced-rum.jpg" />
-				<p>Spiced Rum Tea</p>
-			</div>
-			<div class="image-3 iamge">
-				<img src="resources/images/img-donut.jpg" />
-				<p>Seasonal Donuts</p>
-			</div>
-			<div class="image-4 iamge">
-				<img src="resources/images/img-myrtle-ave.jpg" />
-				<p>Myrtle Ave Tea</p>
-			</div>
-			<div class="image-5 iamge">
-				<img src="resources/images/img-bedford-bizarre.jpg" />
-				<p>Bedford Bizarre Tea</p>
+	<main>
+		<div id="mission">
+			<div id="statement">
+				<h2>Our Mission</h2>
+				<h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
 			</div>
 		</div>
-	</div>
-	<div id="locations">
-		<h2>Locations</h2>
-		<div id="location-box">
-			<div id="downtown">
-				<h3>Downtown</h3>
-				<p>384 West 4th St</p>
-				<p>Suite 108</p>
-				<p>Portland, Maine</p>
-			</div>
-			<div id="eastBayside">
-				<h3>East Bayside</h3>
-				<p>3433 Phisherman's Avenue</p>
-				<p>(Northwest Corner)</p>
-				<p>Portland, Maine</p>
-			</div>
-			<div id="oakdale">
-				<h3>Oakdale</h3>
-				<p>515 Crescent Avenue</p>
-				<p>Second Floor</p>
-				<p>Portland, Maine</p>
+		<div id="teas">
+			<h2>Tea of the Month</h2>
+			<h4>What's Steeping at The Tea Cozy?</h4>
+			<div class="container" id="featured">
+				<div class="featured-item">
+					<img src="resources/images/img-berryblitz.jpg" />
+					<p>Fall Berry Blitz Tea</p>
+				</div>
+				<div class="featured-item">
+					<img src="resources/images/img-spiced-rum.jpg" />
+					<p>Spiced Rum Tea</p>
+				</div>
+				<div class="featured-item">
+					<img src="resources/images/img-donut.jpg" />
+					<p>Seasonal Donuts</p>
+				</div>
+				<div class="featured-item">
+					<img src="resources/images/img-myrtle-ave.jpg" />
+					<p>Myrtle Ave Tea</p>
+				</div>
+				<div class="featured-item">
+					<img src="resources/images/img-bedford-bizarre.jpg" />
+					<p>Bedford Bizarre Tea</p>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="contact">
-		<h4>The Tea Cozy</h4>
-		<h5>contact@theteacozy.com</h5>
-		<p>917-555-8904</p>
-	</div>
+		<div id="locations" class="container">
+			<div> <!-- Just here for formatting -->
+				<h2>Locations</h2>
+				<div id="location">
+					<div class="location-item">
+						<h3>Downtown</h3>
+						<p>384 West 4th St</p>
+						<p>suite 108</p>
+						<p>Portland, Maine</p>
+					</div>
+					<div class="location-item">
+						<h3>East Bayside</h3>
+						<p>3433 Phisherman's Avenue</p>
+						<p>(Northwest Corner)</p>
+						<p>Portland, Maine</p>
+					</div>
+					<div class="location-item">
+						<h3>Oakdale</h3>
+						<p>515 Crescent Avenue</p>
+						<p>Second Floor</p>
+						<p>Portland, Maine</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 	<footer>
-		<p>copyright &copy; The Tea Cozy 2017</p>
+		<div id="contact">
+			<h4>The Tea Cozy</h4>
+			<h5>contact@theteacozy.com</h5>
+			<p>917-555-8904</p>
+		</div>
+		<p id="copyright">copyright &copy; The Tea Cozy 2017</p>
 	</footer>
 </body>
 </html>

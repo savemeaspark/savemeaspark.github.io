@@ -1,10 +1,149 @@
-* {
-	font-family: Helvetica;
+/* === GLOBAL STYLING === */
+
+body {
+	font-family: Helvetica, sans-serif;
 	font-size: 22px;
-	color: seashell;
-	background-color: black;
-	opacity: 0.9;
-	text-align: center;
-	width: 1200px;
+	color: #fff5ee; /* seashell */
+	background: #000; /* black */
 	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff5ee;
+	font-size: 22px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+}
+
+/* === HEADER === */
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid #fff5ee;
+	background-color: #000;
+	opacity: 0.9;
+}
+
+#logo {
+	display: flex;
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+#logo img {
+	height: 50px;
+}
+
+#navigation {
+	display: inline-block;
+}
+
+#navigation a {
+	color: #fff5ee;
+	text-align: right;
+}
+
+/* === MAIN CONTENT === */
+
+main {
+	padding-top: 70px;
+	opacity: 0.9;
+}
+
+
+/* === MISSION === */
+
+#mission {
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url("../images/img-mission-background.jpg");
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#statement {
+	background-color: black;
+}
+
+#statement h2, h4 {
+	text-align: center;
+}
+
+/* === FEATURED TEAS === */
+
+#teas {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#teas h2, h4 {
+	text-align: center;
+}
+
+#featured {
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.featured-item {
+	text-align: center;
+	margin: 0 10px;
+}
+
+.featured-item img {
+	width: 300px;
+	height: 200px;
+	display: block;
+}
+
+/* === LOCATIONS === */
+
+#locations {
+	width: 1200px;
+	height: 500px;
+	justify-content: center;
+	text-align: center;
+	background-image: url("../images/img-locations-background.jpg");
+}
+
+#location {
+	display: flex;
+}
+
+.location-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	height: auto;
+	margin: 0 15px;
+	background: #000;
+}
+
+/* === FOOTER === */
+
+footer {
+	height: 200px;
+	opacity: 0.9;
+}
+
+#contact {
+	text-align: center;
+}
+
+#coypright {
+	text-align: left;
+	padding-left: 20px;
 }
